@@ -9,3 +9,5 @@ Commint changes
 	$ git commit -m "Comment"
 New empty reporitory
 	$ git remote add orign https://github.com/rbuhler/<newDir>.git
+Pull back a repository	
+	$ git pull origin master
