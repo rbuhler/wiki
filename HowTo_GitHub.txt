@@ -10,9 +10,11 @@ Commint changes
 	$ git commit -m "Comment"
 New empty repository
 	$ git remote add orign https://github.com/rbuhler/<newDir>.git
+Push staged changes
+	$ git push -u origin master
 Pull back a repository	
 	$ git pull origin master
 Check differences
 	$ git diff HEAD
 Diff from staged files
-	$ get diff --stated
+	$ giyt diff --stated
