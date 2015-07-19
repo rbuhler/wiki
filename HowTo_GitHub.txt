@@ -1,0 +1,11 @@
+Initialize a directory: git init
+Check the directory status 
+	$ git status
+Add a file to the stage
+	$ git add <file>
+Remove a file from stage
+	$ git rm --cached <file>
+Commint changes
+	$ git commit -m "Comment"
+New empty reporitory
+	$ git remote add orign https://github.com/rbuhler/<newDir>.git
