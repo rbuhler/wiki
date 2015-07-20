@@ -2,18 +2,21 @@ Initialize a directory
 	$ git init
 Check the directory status 
 	$ git status
+New empty repository
+	$git remote add <repository> <https>
+---------------------------------------------
 Add a file to the stage
 	$ git add <file>
 Remove a file from stage
 	$ git rm --cached <file>
-Commint changes
-	$ git commit -m "Comment"
-New empty repository
-	$ git remote add orign https://github.com/rbuhler/<newDir>.git
+---------------------------------------------
+Commit changes
+	$ git commit -m "\\ Comment"
 Push staged changes
-	$ git push -u origin master
+	$ git push -u <repository>  master
+----------------------------------------------
 Pull back a repository	
-	$ git pull origin master
+	$ git pull <repository> master
 Check differences
 	$ git diff HEAD
 Diff from staged files
