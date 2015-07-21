@@ -13,11 +13,15 @@ $ sudo nando main.conf
 $ sudo hciconfig hci0 up
 $ sudo hciconfig hci0 piscan \\ make it discoverable
 
-$ sudo bluez-simple-agent
-
 $ sdptool add sp
 $ sudo rfcomm listen hci0&
 
+$ cat /dev/rfcomm0
+
 $ sudo bluez-simple-agent
 
-$ cat /dev/rfcomm0
+
+--------------------------------------
+MAINTENANCE
+
+	$sudo /etc/init.d/bluetooth restart
