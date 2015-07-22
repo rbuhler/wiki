@@ -1,9 +1,21 @@
+Speed
+	INIT
+	$ git init
+	$ git remote add <repository> <https>
+	$ git pull <repository> master
+
+	REPEAT
+	$ git add <file>
+	$ git commit -m "\\ Comment"
+	$ git push -u <repository>  master
+
+General
 Initialize a directory
 	$ git init
 Check the directory status 
 	$ git status
 New empty repository
-	$git remote add <repository> <https>
+	$ git remote add <repository> <https>
 ---------------------------------------------
 Add a file to the stage
 	$ git add <file>
