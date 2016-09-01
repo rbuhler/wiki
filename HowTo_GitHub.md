@@ -1,11 +1,11 @@
 BASICS
 <hr align="left">
 	INIT
-	<font face="courier new">
+	<span style="color: gray">
 		$ git init
 		$ git remote add <repository> <https>
 		$ git pull <repository> master
-	</font>
+	</span
 	REPEAT
 	$ git add <file>
 	$ git commit -m "\\ Comment"
