@@ -1,19 +1,16 @@
 BASICS
-<hr align="left">
-	INIT
-	<span style="color: gray">
+<hr align="left"/>
+	<b>INIT</b>
 		$ git init
-		$ git remote add <repository> <https>
-		$ git pull <repository> master
-	</span
-	REPEAT
-	$ git add <file>
-	$ git commit -m "\\ Comment"
-	$ git push -u <repository>  master
+		$ git remote add &#60; repository &#62; &#60;https&#62;
+		$ git pull &#60;repository&#62; master
+	<b>REPEAT</b>
+		$ git add <file>
+		$ git commit -m "\\ Comment"
+		$ git push -u &#60; repository &#62;  master
 
-<hr align="left">
-	FRESH START
-
+<hr align="left"/>
+	<b>FRESH START</b>
 	$ echo "# nodeJS.buhler.OdataCRUD" >> README.md
 	$ git init
 	$ git add README.md
@@ -21,41 +18,41 @@ BASICS
 	$ git remote add origin https://github.com/rbuhler/nodeJS.buhler.OdataCRUD.git
 	$ git push -u origin master
 
-<li> Push an existing repository from the command line
+<li> Push an existing repository from the command line <br>
 	$ git remote add origin https://github.com/rbuhler/<??>.git
 	$ git push -u origin master
 
 <li/>
 <b>General</b>
-<hr align="left">
+<hr align="left"/>
 Initialize a directory
 	$ git init
-<hr align="left">
+<hr align="left"/>
 Check the directory status
 	$ git status
-<hr align="left">
+<hr align="left"/>
 New empty repository
 	$ git remote add <repository> <https>
-<hr align="left">
+<hr align="left"/>
 Add a file to the stage
 	$ git add <file>
 Remove a file from stage
 	$ git rm --cached <file>
-<hr align="left">
+<hr align="left"/>
 Commit changes
 	$ git commit -m "\\ Comment"
 Push staged changes
 	$ git push -u <repository>  master
-<hr align="left">
+<hr align="left"/>
 Pull back a repository
 	$ git pull <repository> master
 Check differences
 	$ git diff HEAD
 Diff from staged files
 	$ giyt diff --stated
-<hr align="left">
+<hr align="left"/>
 Switch between branches
 	git checkout 'branch'
 Clone a repository
  git clone <repository>.git
-<hr align="left">
+<hr align="left"/>
