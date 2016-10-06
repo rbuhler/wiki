@@ -1,4 +1,22 @@
-BASICS
+## Configuration
+- List Global Config
+````
+$ git config --list 
+````
+- Set Proxy Configuration
+````
+git config --global http.proxy http://proxy:8083
+````
+- Reset Proxy Configuration
+````
+git config --global --unset http.proxy
+````
+- List Proxy Configuration
+````
+git config --global --get http.proxy
+````
+
+## Basic
 <hr align="left"/>
 	<b>INIT</b>
 		$ git init
