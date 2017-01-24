@@ -11,5 +11,6 @@
 
 ## Environment Variables
 - [bash_aliases](http://stackoverflow.com/questions/19013725/linux-mint-adding-environment-variables-permanently)
+- _/usr/lib/jvm/java-1.8.0-openjdk-amd64_
 
 ## Path
