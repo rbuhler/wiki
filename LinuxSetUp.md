@@ -10,5 +10,6 @@
 #System
 
 ## Environment Variables
+- [bash_aliases](http://stackoverflow.com/questions/19013725/linux-mint-adding-environment-variables-permanently)
 
 ## Path
