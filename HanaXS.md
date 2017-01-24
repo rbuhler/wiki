@@ -5,3 +5,5 @@
 - [Installing SAP HANA Tools for Eclipse](https://help.hana.ondemand.com/help/frameset.htm?b0e351ada628458cb8906f55bcac4755.html)
  - [JAM summary](https://jam4.sapjam.com/blogs/show/0dRSDlgvitfFqMftWM2U9V)
 - [OData on HanaXS](https://jam4.sapjam.com/blogs/show_draft/5SsRQsOkumnjq7o9VaylVh)
+
+- [SAP Hana Master Guide](http://help.sap.com/hana/SAP_HANA_Master_Guide_en.pdf)
