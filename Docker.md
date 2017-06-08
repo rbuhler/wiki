@@ -1,3 +1,9 @@
+# DOCKER
+
+## VAGRANT
+[Download](https://www.vagrantup.com/)
+
+## IMPLEMENTATION STEPS
 -----------------------
 `sudo nano /etc/environment`
 
