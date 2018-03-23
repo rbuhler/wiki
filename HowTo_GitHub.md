@@ -1,3 +1,19 @@
+## Daily Work
+
+* MOVE CHANGES FROM dev TO master
+```
+git checkout master
+git checkout dev .
+git status
+git add .
+git commit -m "commit"	
+```
+* RESET MASTER TO ORIGIN/MASTER
+```
+git fetch origin
+git reset --hard origin/master
+```
+
 ## Configuration
 - List Global Config
 ````
