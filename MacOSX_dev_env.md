@@ -5,8 +5,6 @@
 #### Steps
 - Download 8 
   - [jdk 8.162](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html?printOnly=1)
-
-- Download;
 - Install;
 - Update $JAVA_HOME;
   - vi ~/.bash_profile
